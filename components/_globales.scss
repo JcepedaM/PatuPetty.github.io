@@ -1,0 +1,22 @@
+$color-primario: #F8F9F9;
+$color-secundario: #FFFFFF;
+$color-claro: white;
+$color-oscuro: black;
+$color-enfasis: blue;
+
+@mixin fondo-degradado {
+  background: rgb(0,100,100);
+  background: linear-gradient(90deg, rgba(270,100,100,1) 50%, rgba(270,187,233,1) 100%);
+}
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  background-color: $color-primario;
+}
